@@ -1,6 +1,41 @@
 body{
+    background-color: rgb(211, 211, 211);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Arial', sans-serif;
+}
+
+header{
+    background-color: white;
+    height: 70px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+}
+
+.logo{
+    padding-left: 20px;
+    
+}
+
+.container{
+    width: 1000px;
+    height: 580px;
+    background-color: white;
+    margin: auto;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+
+.buttons{
+    height: 60px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    vertical-align: middle;
+    
+
 }
