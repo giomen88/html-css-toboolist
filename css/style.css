@@ -8,10 +8,9 @@ body{
 
 header{
     background-color: white;
-    height: 70px;
+    height: 80px;
     margin-bottom: 40px;
-    line-height: 70px;
-    vertical-align: middle;
+    line-height: 80px;
 }
 
 h1{
@@ -22,14 +21,14 @@ h1{
 .logo{
     padding-left: 20px;
     display: inline;
+    vertical-align: middle;
 }
 
-.container-main{
+.main-container{
     width: 1000px;
     height: 580px;
     background-color: white;
     margin: auto;
-    padding-left: 40px;
     border-radius: 5px;
 }
 
@@ -38,10 +37,12 @@ h1{
     border-bottom: 1px solid rgb(211, 211, 211);
     vertical-align: middle;
     line-height: 60px;
+    padding-left: 40px;
 }
 
-.container-summary{
+.summary-container{
     margin-top: 30px;
+    padding-left: 40px;
 }
 
 .add-task{
