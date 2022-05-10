@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author content="Giorgia Mendico" >
+    <meta name="author" content="Giorgia Mendico" >
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/Logo.png">
     <title>Toboolist</title>
@@ -18,42 +18,44 @@
 
     <main>
 <!-- container -->
-        <div class="container">
+        <div class="container-main">
+
 <!-- pulsanti -->
             <section class="buttons">
                 <button class="add-task">Add Task</button> 
                 <button class="add-section">Add Section</button> 
             </section>
-<!-- new task -->
-            <section>
-                <details>
-                    <summary>New Task</summary>
-                    <p><span class="check"> &check; </span> Quarterly Newsletter</p>
-                </details>
-            </section>
-<!-- today -->
-            <section>
-                <details>
-                    <summary>Today</summary>
-                    <p><span class="check"> &check; </span></p>
-                    <p><span class="check"> &check; </span></p>
-                    <p><span class="cross"> &cross; </span></p>
-                    <p><span class="check"> &check; </span></p>
-                </details>
-            </section>
-<!-- upcoming -->
-            <section>
-                <details>
-                    <summary>Upcoming</summary>
-                    <p><span class="cross"> &cross; </span></p>
-                    <p><span class="check"> &check; </span></p>
-                    <p><span class="check"> &check; </span></span></p>
-                    <p><span class="check"> &check; </span></p>
-                </details>
-            </section>
-        </div>
 
+            <div class="container-summary">
+<!-- new task -->
+                <section>
+                    <details>
+                        <summary>New Task</summary>
+                        <p class="summary-item"> <span class="check"> &check; </span> Quarterly Newsletter <button class="category editorial">Editorial</button></p>
+                    </details>
+                </section>
+<!-- today -->
+                <section>
+                    <details>
+                        <summary>Today</summary>
+                        <p class="summary-item"> <span class="check"> &check; </span> Recruiting blog post <button class="category editorial">Editorial</button></p>
+                        <p class="summary-item"> <span class="check"> &check; </span> Mobile app launch <button class="category q1-goals">Q1 Goals</button></p>
+                        <p class="summary-item"> <span class="cross"> &cross; </span> Interview John H. <button class="category recruiting">Recruiting</button></p>
+                        <p class="summary-item"> <span class="check"> &check; </span> Summit update to mobile storefronts <button class="category mobile">Mobile</button></p>
+                    </details>
+                </section>
+<!-- upcoming -->
+                <section>
+                    <details>
+                        <summary>Upcoming</summary>
+                        <p class="summary-item"> <span class="cross"> &cross; </span> Schedule meeting with Alex <button class="category editorial">Editorial</button></p>
+                        <p class="summary-item"> <span class="check"> &check; </span> Homepage refresh <button class="category website">Website</button></p>
+                        <p class="summary-item"> <span class="check"> &check; </span> Onboard new Sales team members <button class="category sales">Sales</button></p>
+                        <p class="summary-item"> <span class="check"> &check; </span> Review editorial calendar <button class="category editorial">Editorial</button></p>
+                    </details>
+                </section>
+            </div>
+        </div>
     </main>
-    
 </body>
 </html>

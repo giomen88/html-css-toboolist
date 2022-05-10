@@ -24,7 +24,7 @@ h1{
     display: inline;
 }
 
-.container{
+.container-main{
     width: 1000px;
     height: 580px;
     background-color: white;
@@ -40,6 +40,10 @@ h1{
     line-height: 60px;
 }
 
+.container-summary{
+    margin-top: 30px;
+}
+
 .add-task{
     background-color: deepskyblue;
     color: white;
@@ -52,5 +56,57 @@ h1{
     color: rgb(211, 211, 211);
     border-radius: 3px;
     border-color: rgb(211, 211, 211);
+}
 
+summary{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.summary-item{
+    height: 15px;
+}
+
+.check{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.cross{
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.category{
+    border-radius: 5px;
+    color: white;
+    font-size: x-small;
+    border-color: transparent;
+}
+
+.editorial{
+    background-color: deepskyblue;
+}
+.q1-goals{
+    background-color: rgb(161, 106, 212);
+}
+
+.recruiting{
+    background-color: rgb(81, 188, 145);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: rgb(217, 102, 173);
+}
+
+.sales{
+    background-color: rgb(142, 219, 132);
 }
