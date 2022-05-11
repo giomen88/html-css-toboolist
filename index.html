@@ -22,36 +22,36 @@
 
 <!-- pulsanti -->
             <section class="buttons">
-                <button class="add-task">Add Task</button> 
-                <button class="add-section">Add Section</button> 
+                <button class="btn add-task">Add Task</button> 
+                <button class="btn add-section">Add Section</button> 
             </section>
 
             <div class="summary-container">
 <!-- new task -->
-                <section>
+                <section class="new-task">
                     <details>
-                        <summary>New Task</summary>
-                        <p class="summary-item"> <span class="check"> &check; </span> Quarterly Newsletter <button class="category editorial">Editorial</button></p>
+                        <summary class="task-title">New Task</summary>
+                        <p class="task-item"> <span class="status done"> &check; </span> <span class="summary-text"> Quarterly Newsletter </span><span class="badge editorial">Editorial</span></p>
                     </details>
                 </section>
 <!-- today -->
-                <section>
+                <section class="today">
                     <details>
-                        <summary>Today</summary>
-                        <p class="summary-item"> <span class="check"> &check; </span> Recruiting blog post <button class="category editorial">Editorial</button></p>
-                        <p class="summary-item"> <span class="check"> &check; </span> Mobile app launch <button class="category q1-goals">Q1 Goals</button></p>
-                        <p class="summary-item"> <span class="cross"> &cross; </span> Interview John H. <button class="category recruiting">Recruiting</button></p>
-                        <p class="summary-item"> <span class="check"> &check; </span> Summit update to mobile storefronts <button class="category mobile">Mobile</button></p>
+                        <summary class="task-title">Today</summary>
+                        <p class="task-item"> <span class="status done"> &check; </span> <span class="summary-text"> Recruiting blog post </span><span class="badge editorial">Editorial</span></p>
+                        <p class="task-item"> <span class="status done"> &check; </span> <span class="summary-text"> Mobile app launch </span><span class="badge q1-goals">Q1 Goals</span></p>
+                        <p class="task-item"> <span class="status undone"> &cross; </span> <span class="summary-text"> Interview John H. </span><span class="badge recruiting"> Recruiting</span></p>
+                        <p class="task-item"> <span class="status done"> &check; </span> <span class="summary-text"> Summit update to mobile storefronts </span><span class="badge mobile"> Mobile</span></p>
                     </details>
                 </section>
 <!-- upcoming -->
-                <section>
+                <section class="upcoming">
                     <details>
-                        <summary>Upcoming</summary>
-                        <p class="summary-item"> <span class="cross"> &cross; </span> Schedule meeting with Alex </p>
-                        <p class="summary-item"> <span class="check"> &check; </span> Homepage refresh <button class="category website">Website</button></p>
-                        <p class="summary-item"> <span class="check"> &check; </span> Onboard new Sales team members <button class="category sales">Sales</button></p>
-                        <p class="summary-item"> <span class="check"> &check; </span> Review editorial calendar <button class="category editorial">Editorial</button></p>
+                        <summary class="task-title">Upcoming</summary>
+                        <p class="task-item"> <span class="status undone"> &cross; </span> <span class="summary-text"> Schedule meeting with Alex </span></p>
+                        <p class="task-item"> <span class="status done"> &check; </span> <span class="summary-text"> Homepage refresh </span><span class="badge website">Website</span></p>
+                        <p class="task-item"> <span class="status done"> &check; </span> <span class="summary-text"> Onboard new Sales team members </span><span class="badge sales">Sales</span></p>
+                        <p class="task-item"> <span class="status done"> &check; </span> <span class="summary-text"> Review editorial calendar </span><span class="badge editorial">Editorial</span></p>
                     </details>
                 </section>
             </div>

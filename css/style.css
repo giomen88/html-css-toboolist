@@ -1,36 +1,23 @@
-body{
-    background-color: rgb(211, 211, 211);
+/*generics*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Arial', sans-serif;
-}
+}    
 
+body{
+    background-color: rgb(211, 211, 211);
+    font-family:'Arial', sans-serif;
+}        
+
+/*utils*/
 header{
     background-color: white;
-    height: 80px;
+    height: 70px;
     margin-bottom: 40px;
-    line-height: 80px;
-}
-
-h1{
-    font-weight: bold;
-    display: inline;
-}
-
-.logo{
+    line-height: 70px;
     padding-left: 20px;
-    display: inline;
-    vertical-align: middle;
-}
-
-.main-container{
-    width: 1000px;
-    height: 580px;
-    background-color: white;
-    margin: auto;
-    border-radius: 5px;
-}
+}            
 
 .buttons{
     height: 60px;
@@ -38,56 +25,96 @@ h1{
     vertical-align: middle;
     line-height: 60px;
     padding-left: 40px;
-}
+}    
+
+.main-container{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+}            
 
 .summary-container{
     margin-top: 30px;
     padding-left: 40px;
-}
+}    
 
-.add-task{
-    background-color: deepskyblue;
-    color: white;
-    border-color: deepskyblue;
+.btn{
     border-radius: 3px;
-}
+    padding: 5px 5px;
+    font-size: small;
+}    
 
-.add-section{
-    background-color: white;
-    color: rgb(211, 211, 211);
-    border-radius: 3px;
-    border-color: rgb(211, 211, 211);
-}
-
-summary{
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-.summary-item{
+.status{
+    display: inline-block;
+    width: 15px;
     height: 15px;
-}
-
-.check{
-    color: green;
-    border: 1px solid green;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 15px;
     border-radius: 50%;
     font-size: 12px;
-}
+}    
 
-.cross{
-    color: red;
-    border: 1px solid red;
-    border-radius: 50%;
-    font-size: 12px;
-}
-
-.category{
+.badge{
+    display: inline-block;
+    padding: 5px 5px;
+    margin-left: 5px;
     border-radius: 5px;
     color: white;
     font-size: x-small;
     border-color: transparent;
 }
+
+h1{
+/*h1+logo*/
+    font-weight: 900;
+    font-size: 38px;
+    display: inline;
+    vertical-align: middle;
+}                    
+
+.logo{
+    vertical-align: middle;
+}                    
+
+/*buttons*/
+.add-task{
+    background-color: deepskyblue;
+    color: white;
+    border-color: deepskyblue;
+}        
+
+.add-section{
+    background-color: white;
+    color: rgb(211, 211, 211);
+    border-color: rgb(211, 211, 211);
+}        
+
+/*summary*/
+.task-title{
+    height: 30px;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}        
+
+.task-item{
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}        
+
+.done{
+    color: green;
+    border: 1px solid green;
+}    
+
+.undone{
+    color: red;
+    border: 1px solid red;
+}    
 
 .editorial{
     background-color: deepskyblue;
